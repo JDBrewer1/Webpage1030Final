@@ -1,0 +1,87 @@
+body {
+    background-color: cornflowerblue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-title {
+    text-align: center; 
+    font-size:90px;
+}
+
+.p1 { text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hobby {
+    width: 23%;
+    text-align: center;
+}
+
+.hobby a {
+    display: block;
+    font-size: 30px;
+    color: white;
+}
+
+.hobby img {
+    width: 100%;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 70px;
+}
+
+.page-image {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.page-text {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.page-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-image {
+    width: 30%;
+    height: 400px;
+    object-fit: contain;
+}
+.home-link {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    text-align: center;
+}
+.navigation {
+    text-align: center;
+    margin: 20px;
+}
+
+.navigation a {
+    margin: 15px;
+    font-size: 40px;
+    color: white;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
